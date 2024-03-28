@@ -1,36 +1,40 @@
 
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class P2477참외밭 {
     public class Main {
-//        public static void main(String[] args) {
-//            Scanner sc = new Scanner(System.in);
-//            int K = sc.nextInt();
-//            ArrayList<Integer> 동서 = new ArrayList<>();
-//            ArrayList<Integer> 남북 = new ArrayList<>();
-//
-//
-//            for (int i = 0; i < 6; i++) {
-//                int direction = sc.nextInt();
-//
-//                int length = sc.nextInt();
-//                if (direction == 1 || direction == 2) {
-//                    동서.add(length);
-//                } else if (direction == 3 || direction == 4) {
-//                    남북.add(length);
-//                }
-//            }
-//
-//            동서.sort((a, b) -> b - a);
-//            남북.sort((a, b) -> b - a);
-//
-//            int 큰사각형 = 동서.get(0) * 남북.get(0);
-//            int 작은사각형 = 동서.get(2) * 남북.get(2);
-//
-//            System.out.println((큰사각형 - 작은사각형)*K);
-//
-//        }
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            int K = sc.nextInt();
+            int 파먹은사각형 = 0;
+            ArrayList<Integer> directions = new ArrayList<>();
+            ArrayList<Integer> lengths = new ArrayList<>();
+
+
+            for (int i = 0; i < 6; i++) {
+                int direction = sc.nextInt();
+                int length = sc.nextInt();
+                directions.add(direction);
+                lengths.add(length);
+            }
+
+            for (int i = 0; i < 6; i++) {
+                // 반대편 변을 찾아 그 면적을 뺌
+                if (Objects.equals(directions.get((i) % 6), directions.get((i + 2) % 6)) && Objects.equals(directions.get((i + 1) % 6), directions.get((i + 3) % 6))) {
+                    파먹은사각형 = lengths.get(i+1) * lengths.get(i+2);
+                    break;
+                }
+            }
+
+            lengths.sort((a,b)-> b-a);
+            int 큰사각형 = lengths.get(0) * lengths.get(1);
+
+
+            System.out.println((큰사각형 - 파먹은사각형)*K);
+
+        }
 
     }
 }
