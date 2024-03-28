@@ -9,7 +9,7 @@ import java.util.Set;
  * 시간 732ms
  */
 
-public class P11478서로다른부분문자열의개수 {
+public class BOJ11478서로다른부분문자열의개수 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

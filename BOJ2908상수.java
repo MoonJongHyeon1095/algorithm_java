@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * 시간 120ms
  */
 
-public class P2908상수 {
+public class BOJ2908상수 {
     public class Main {
         public static void main(String[] args) throws IOException {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

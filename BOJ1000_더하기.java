@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P1000_더하기 {
+public class BOJ1000_더하기 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();

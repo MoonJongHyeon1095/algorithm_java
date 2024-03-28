@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class P2750수정렬 {
+public class BOJ2750수정렬 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int length = input.nextInt();

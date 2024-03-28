@@ -1,7 +1,7 @@
 import java.util.Collections;
 import java.util.Scanner;
 
-public class P2445별찍기8 {
+public class BOJ2445별찍기8 {
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P11720_숫자의합 {
+public class BOJ11720_숫자의합 {
     public static void main2(String[] args) {
         Scanner sc = new Scanner(System.in);
         int length = sc.nextInt();

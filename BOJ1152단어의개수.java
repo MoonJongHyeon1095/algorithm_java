@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 메모리 37844kb
  * 시간 523ms
  */
-public class P1152단어의개수 {
+public class BOJ1152단어의개수 {
     public class Main {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);

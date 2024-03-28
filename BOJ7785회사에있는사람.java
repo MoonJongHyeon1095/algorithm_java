@@ -8,7 +8,7 @@ import java.util.*;
  * 시간 1496ms
  */
 
-public class P7785회사에있는사람 {
+public class BOJ7785회사에있는사람 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int length = Integer.parseInt(br.readLine());

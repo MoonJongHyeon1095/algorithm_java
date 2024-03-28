@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * 시간 364ms
  */
 
-public class P27160할리갈리 {
+public class BOJ27160할리갈리 {
     public class Main{
         public static void main(String[] args) throws IOException {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

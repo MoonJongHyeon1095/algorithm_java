@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P1193분수찾기 {
+public class BOJ1193분수찾기 {
 
 
     public class Main {

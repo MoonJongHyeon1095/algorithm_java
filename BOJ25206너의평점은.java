@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class P25206너의평점은 {
+public class BOJ25206너의평점은 {
 
     public class Main{
         public static Map<String, Double> gradeMap;

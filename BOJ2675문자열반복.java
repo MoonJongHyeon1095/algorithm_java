@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P2675문자열반복 {
+public class BOJ2675문자열반복 {
     public class Main{
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);

@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 /** Scanner 사용
@@ -15,7 +13,7 @@ import java.util.StringTokenizer;
  *  메모리 14356kb
  *  시간 128ms
  */
-public class P1546평균 {
+public class BOJ1546평균 {
     public static void main(String[] args) throws IOException {
 //        Scanner sc = new Scanner(System.in);
 //        int length = sc.nextInt();

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class P2477참외밭 {
+public class BOJ2477참외밭 {
     public class Main {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);

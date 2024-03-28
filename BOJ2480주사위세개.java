@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class P2480주사위세개 {
+public class BOJ2480주사위세개 {
     public class Main {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);

@@ -16,7 +16,7 @@ import java.util.*;
  * HashMap: 키에 대한 해시 함수를 사용하여 값을 저장하는데, 이 때문에 요소들이 정렬되지 않습니다. 따라서 키-값 쌍을 추가, 삭제, 검색할 때 일관된 시간 복잡도인 O(1)을 기대할 수 있습니다. 하지만 최악의 경우(모든 키가 같은 해시 값을 가질 때) 시간 복잡도는 O(n)이 될 수 있습니다.
  * TreeMap: 내부적으로 레드-블랙 트리(Red-Black Tree)라는 균형 이진 검색 트리를 사용하여 요소를 저장합니다. 이로 인해 모든 키-값 쌍이 자동으로 키에 따라 정렬됩니다. 일반적인 연산(추가, 삭제, 검색)의 시간 복잡도는 O(log n)입니다.
  */
-public class P20291파일정리 {
+public class BOJ20291파일정리 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int length = Integer.parseInt(br.readLine());

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P19242007년 {
+public class BOJ19242007년 {
     public class Main{
         private static final String[] days = {"MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"};
         private static final int[] months = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
