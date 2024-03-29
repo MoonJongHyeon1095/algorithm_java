@@ -30,7 +30,7 @@ public class AdjacencyMatrixDFS {
         System.out.print(start + " ");
 
         for(int i = 1; i < vertex + 1; i++){
-            if(matrix[start][i] == 1 && visit[i] ==false){
+            if(matrix[start][i] == 1 && !visit[i]){
                 dfs(i);
             }
         }
