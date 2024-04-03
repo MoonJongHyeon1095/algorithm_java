@@ -10,9 +10,5 @@ public class BOJ1987알파벳 {
 
         }
 
-        private static int solution(int row, int col) {
-            int result = 0;
-            for
-        }
     }
 }
