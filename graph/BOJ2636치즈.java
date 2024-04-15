@@ -1,3 +1,5 @@
+package graph;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -53,7 +55,6 @@ public class BOJ2636치즈 {
         Queue<Point> queue = new LinkedList<>();
         queue.add(new Point(0, 0));
         visited[0][0] = true;
-        int count =0;
 
         while (!queue.isEmpty()) {
            Point current = queue.poll();
@@ -75,7 +76,6 @@ public class BOJ2636치즈 {
                     matrix[nextRow][nextColumn] = 0;
                     visited[nextRow][nextColumn] = true;
                 }
-                count++;
             }
         }
     }
